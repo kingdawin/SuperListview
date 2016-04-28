@@ -60,7 +60,7 @@ public class SuperListview extends BaseSuperAbsListview {
 
 
             mList.setClipToPadding(mClipToPadding);
-
+            //can not change int to Drawble
             getList().setDivider(mDivider);
             getList().setDividerHeight((int) mDividerHeight);
 
